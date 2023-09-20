@@ -1,0 +1,53 @@
+main {
+    display: flex;
+    flex-direction: column;
+    background-image: url("media/cloth2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center;
+}
+
+section {
+    background-color: var(--dark-layer9);
+    box-shadow: 0 0 8px #000;
+}
+
+#section1 {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    width: 80vw;
+    height: 40vh;
+    margin: 30vh auto 10vh;
+}
+#section2 {
+    width: 80vw;
+    height: 40vh;
+    margin: 10vh auto;
+}
+.article-text {
+    padding: 20px;
+}
+#s1_art_txt {
+    overflow-y: scroll;
+    width: 70%;
+    /* margin: auto 0; */
+    /*Disables overflow rule*/
+}
+
+#s1_art_img {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+#s1_art_img>img {
+    height: 50%;
+    object-fit: cover;
+    padding: 5px;
+}
+
+#s1_art_img_1 {
+    object-position: 0 80%;
+}

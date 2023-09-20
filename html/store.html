@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../master.css">
+    <link rel="stylesheet" href="../css/store.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <title>Zapatería DZ</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav1">
+            <logo>
+                <a href="../index.html">
+                    <img src="../media/logoipsum.svg" alt="logo" />
+                </a>
+            </logo>
+            <div class="navlinks">
+                <span>
+                    <a href="#">
+                        ...
+                    </a>
+                </span>
+                <span>
+                    <a href="#">
+                        ...
+                    </a>
+                </span>
+                <span>
+                    <a href="#">
+                        Sobre nosotros
+                    </a>
+                </span>
+                <span>
+                    <a href="#">
+                        ETC...
+                    </a>
+                </span>
+            </div>
+            <div class="storelinks">
+                <a href="#" id="login">Iniciar sesión</a> <!-- Se sustituye por nombre de cuenta -->
+                <a href="#"><img src="../media/svg/heart.svg" alt="Lista de deseados" /></a>
+                <a href="#"><img src="../media/svg/cart.svg" alt="Lista de la compra" /></a>
+            </div>
+        </div>
+        <div class="nav2">
+            <div class="navlinks">
+                <a href="#">
+                    Hombre
+                </a>
+                <a href="#">
+                    Mujer
+                </a>
+                <a href="#">
+                    Niños
+                </a>
+                <a href="#">
+                    Accesorios
+                </a>
+            </div>
+        </div>
+    </nav>
+    <aside>
+        <form id="filter" method="post">
+            <label for="sizeMin">Talla mínima</label>
+            <input type="number" name="sizeMin" min="0" max="50" value="0" step="2">
+
+            <label for="sizeMax">Talla máxima</label>
+            <input type="number" name="sizeMax" min="0" max="50" value="50" step="2">
+
+            <label for="priceMin">Precio mínimo</label>
+            <input type="number" name="priceMin" min="0" max="500" value="0" step="10">
+
+            <label for="priceMax">Precio máximo</label>
+            <input type="number" name="priceMax"  min="0" max="500" value="500" step="10">
+
+            <input type="submit" value="Filtrar" id="submit">
+        </form>
+    </aside>
+    <main>
+        <a href="" class="product">
+            <img src="../media/shoes/shoe1.jpg" alt="Generic product image" class="product-image">
+            <div class="product-text">
+                <p class="product-name">Nombre</p>
+                <p class="product-descript">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                    Lorem ipsum Lorem ipsum</p>
+            </div>
+            <span href="" class="product-buy"><img src="../media/svg/cart.svg" alt="">???€</span>
+        </a>
+        <a href="" class="product">
+            <img src="../media/shoes/shoe2.jpg" alt="Generic product image" class="product-image">
+            <div class="product-text">
+                <p class="product-name">Nombre</p>
+                <p class="product-descript">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                    Lorem ipsum Lorem ipsum</p>
+            </div> <span href="" class="product-buy"><img src="../media/svg/cart.svg" alt="">???€</span>
+        </a>
+        <a href="" class="product">
+            <img src="../media/shoes/shoe3.jpg" alt="Generic product image" class="product-image">
+            <div class="product-text">
+                <p class="product-name">Nombre</p>
+                <p class="product-descript">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                    Lorem ipsum Lorem ipsum</p>
+            </div> <span href="" class="product-buy"><img src="../media/svg/cart.svg" alt="">???€</span>
+        </a>
+        <a href="" class="product">
+            <img src="../media/shoes/shoe4.jpg" alt="Generic product image" class="product-image">
+            <div class="product-text">
+                <p class="product-name">Nombre</p>
+                <p class="product-descript">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                    Lorem ipsum Lorem ipsum</p>
+            </div> <span href="" class="product-buy"><img src="../media/svg/cart.svg" alt="">???€</span>
+        </a>
+        <a href="" class="product">
+            <img src="../media/shoes/shoe5.jpg" alt="Generic product image" class="product-image">
+            <div class="product-text">
+                <p class="product-name">Nombre</p>
+                <p class="product-descript">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                    Lorem ipsum Lorem ipsum</p>
+            </div> <span href="" class="product-buy"><img src="../media/svg/cart.svg" alt="">???€</span>
+        </a>
+        <a href="" class="product">
+            <img src="../media/shoes/shoe6.jpg" alt="Generic product image" class="product-image">
+            <div class="product-text">
+                <p class="product-name">Nombre</p>
+                <p class="product-descript">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                    Lorem ipsum Lorem ipsum</p>
+            </div> <span href="" class="product-buy"><img src="../media/svg/cart.svg" alt="">???€</span>
+        </a>
+    </main>
+    <footer>
+        <div id="footer-line"></div>
+        <div id="footer-in">
+            <span id="footer-logo">
+                <a href="../index.html">
+                    <img src="../media/logoipsum.svg" alt="logo" />
+                </a>
+            </span>
+            <span id="footer-links">
+                La wea la wea está muy seria. <br />
+                La wea la wea está muy seria. <br />
+                La wea la wea está muy seria. <br />
+                La wea la wea está muy seria. <br />
+                La wea la wea está muy seria.
+            </span>
+            <span id="footer-socials">
+                <a href="https://www.facebook.com/" target="_blank"><img src="../media/svg/facebook.svg"
+                        alt="Facebook" /></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="../media/svg/instagram.svg"
+                        alt="Instagram" /></a>
+                <a href="https://www.pinterest.com/" target="_blank"><img src="../media/svg/pinterest.svg"
+                        alt="Pinterest" /></a>
+                <a href="https://www.youtube.com/" target="_blank"><img src="../media/svg/youtube.svg"
+                        alt="Youtube" /></a>
+            </span>
+        </div>
+
+    </footer>
+</body>
+
+</html>
